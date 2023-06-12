@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from "react";
+import { NumberDisplay } from "./NumberDisplay";
 import "./App.css";
 
 function App() {
   return (
     <div>
+      <NumberDisplay/>
     </div>
   );
 }
